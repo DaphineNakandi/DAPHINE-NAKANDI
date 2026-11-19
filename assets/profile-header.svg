@@ -1,0 +1,31 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111720"/>
+      <stop offset="1" stop-color="#171A27"/>
+    </linearGradient>
+    <radialGradient id="mist1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 80) rotate(90) scale(210 330)">
+      <stop stop-color="#64748B" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#64748B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mist2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 270) rotate(-130) scale(190 280)">
+      <stop stop-color="#77719A" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#77719A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="72" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9AA8BA" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#9AA8BA" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#9AA8BA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#mist1)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#mist2)"/>
+  <path d="M72 222H1128" stroke="url(#line)"/>
+  <circle cx="1060" cy="75" r="1.5" fill="#AAB5C4" fill-opacity=".7"/>
+  <circle cx="1100" cy="115" r="1" fill="#AAB5C4" fill-opacity=".5"/>
+  <circle cx="1010" cy="165" r="1" fill="#AAB5C4" fill-opacity=".5"/>
+  <text x="76" y="112" fill="#DDE3EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="4">SOFTWARE ENGINEERING</text>
+  <text x="72" y="174" fill="#F1F3F6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="600" letter-spacing="-1.5">Daphine Nakandi</text>
+  <text x="76" y="263" fill="#A6B0BF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" letter-spacing=".4">Building practical applications · Learning by creating</text>
+</svg>
